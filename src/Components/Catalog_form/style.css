@@ -1,0 +1,166 @@
+.catalog_form{
+    width: 280px;
+    height: 597px;
+    background-color: #FFF4EE;
+    padding: 20px;
+}
+
+.form_text{
+    width: 240px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #444B58;
+}
+
+.catalog_price{
+    margin-top: 20px;
+}
+
+.catalog_price>h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444B58;
+    margin-bottom: 10px;
+}
+
+.cat_pr_in{
+    display: flex;
+}
+
+.cat_pr_in_pole{
+    width: 120px;
+    height: 50px;
+    border: 1px solid #B2B5BB;
+    border-radius: 4px;
+    background-color: #FFF4EE;
+    align-content: center;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.car_pr_in_sl{
+   background-color: #FFF4EE;
+   height: 50px;
+   margin-top: 10px;
+}
+
+input[type="range"]{
+    -webkit-appearance: none; 
+   background-color: #444B58;
+  height: 2px; 
+  width: 120px;
+  background: #444B58; 
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Убираем стандартный стиль браузера */
+    appearance: none;
+    width: 3px; /* Ширина ползунка */
+    height: 16px; /* Высота ползунка */
+    background: #444B58; /* Цвет ползунка */
+    border-radius: 3%; 
+  }
+
+.list_sex>h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444B58;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkbox{
+    gap: 45px;
+    display: flex;
+}
+
+.check_box {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.check_box input[type="checkbox"] {
+    display: none;
+ }
+  
+.check_box .check{
+    width: 20px;
+  height: 20px;
+  border: 2px solid #DBBBA9;
+  border-radius: 4px;
+  background: #FFF4EE;
+  position: relative;
+  margin-right: 10px;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.check_box input[type="checkbox"]:checked + .check {
+    background: #FFF4EE;
+    border-color: #DBBBA9;
+  }
+  
+  .check_box input[type="checkbox"]:checked + .check::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border: solid #DBBBA9;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    top: 3px;
+    left: 7px;
+  }
+
+.table_size{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+  .table_size>h3{
+    color: #444B58;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+.table_row{
+  display: flex;
+}
+
+.table_item{
+    align-content: center;
+    text-align: center;
+    border: 1px solid #DBBBA9;
+    width: 80px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444B58;
+    cursor: pointer;
+}
+
+.active{
+  background-color: #DBBBA9;
+  border: 1px solid #FFF4EE;
+  color: white;
+}
+
+.ref{
+  color: #444B58;
+  border: none;
+  background-color: #FFF4EE;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 86px;
+  cursor: pointer;
+}
+
+.ref:hover{
+  color: red;
+}

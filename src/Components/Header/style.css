@@ -1,0 +1,39 @@
+header{
+    background-color: #484283;
+    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.headers{
+    height: 44px;
+    display: flex;
+}
+
+.headers>h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.list{
+    display: flex;
+    gap: 40px;
+    margin-left: 220px;
+    margin-top: 7px;
+}
+
+.list_item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.list_item>img{
+    width: 20px;
+    height: 18.42px;
+    margin-top: -4px;
+    margin-left: 4px;
+}

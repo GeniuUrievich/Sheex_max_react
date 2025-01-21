@@ -1,0 +1,13 @@
+.button_filter{
+    background-color: #444B58;
+    color: white;
+    width: 239px;
+    height: 60px;
+    border: 1px solid #FFF4EE;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button_filter:hover{
+    background-color: red;
+}
