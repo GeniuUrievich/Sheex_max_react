@@ -1,8 +1,9 @@
 .catalog_form{
-    width: 280px;
+    width: 250px;
     height: 597px;
     background-color: #FFF4EE;
     padding: 20px;
+    margin-right: 20px;
 }
 
 .form_text{
