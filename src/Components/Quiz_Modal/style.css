@@ -1,0 +1,24 @@
+.modal{
+    width: 980px;
+}
+
+.modal_text{
+    color: #444B58;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.photos{
+    margin-bottom: 10px;
+}
+
+.modal_list{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+}
+
+.modal_list_quiz{
+    display: block;
+    margin-bottom: 20px;
+}
