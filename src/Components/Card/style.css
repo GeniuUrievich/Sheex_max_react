@@ -1,0 +1,21 @@
+.card{
+    width: 280px;
+    height: 349px;
+}
+
+.image_card{
+    width: 100%;
+    height: 293px;
+}
+
+.name_card{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444B58;
+}
+
+.price_card{
+    font-size: 20px;
+    font-weight: 400;
+    color: #444B58;
+}
