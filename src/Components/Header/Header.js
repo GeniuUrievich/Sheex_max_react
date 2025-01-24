@@ -18,6 +18,7 @@ function Header(){
                         <li className="list_item"><a>Корзина</a><img src={image}/></li>
                     </ul>
                 </div>
+                <div className="line"></div>
             </div>
         </header>
     )
