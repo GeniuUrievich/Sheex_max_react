@@ -1,0 +1,6 @@
+.Card_list{
+    width: 880px;
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(3, auto);
+}
