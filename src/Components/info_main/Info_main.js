@@ -6,7 +6,6 @@ function Info_main(){
     return(
         <section className="first_section">
             <div className="container">
-                <div className="line"></div>
                 <div className="text">
                     <h1>Кроссовки известных брендов 
                     с доставкой по России и СНГ</h1>
