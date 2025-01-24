@@ -3,10 +3,14 @@ import "./../../style.css"
 import { useState } from "react"
 import Button_filter from "../Button_filter/Button_filter"
 import filter_list from "../../filret_list"
+import Card_List from "../Card_List/Card_List"
+import List_card from "../../List_card";
 
 function Catalog_form(){
     const [minValue, setMinValue] = useState(500)
     const [maxValue, setMaxValue] = useState(100000)
+    const [updata, setUpdata] = useState(List_card)
+    const [filter, setFilter] = useState(filter_list)
 
     const changemin = (event) =>{
         const value = parseInt(event.target.value,10)
@@ -17,14 +21,9 @@ function Catalog_form(){
     
     const handleFilter = () =>{
 
-        if (filter_list.price === 0){
-             filter_list.price.push(minValue)
-        filter_list.price.push(maxValue)
-        }
-        else{
-            filter_list.price[0] = minValue;
-            filter_list.price[1] = maxValue;
-        }
+        filter_list.price[0] = minValue;
+        filter_list.price[1] = maxValue;
+        
 
         if (checkd.мужской === true && !filter_list.sex.includes("мужской")){
             filter_list.sex.push("мужской")
@@ -42,11 +41,16 @@ function Catalog_form(){
             filter_list.sex = filter_list.sex.filter((item) => item !== "женский")
         }
 
+        
+
         activeCell.forEach((row_list, index_row) => {
             row_list.forEach((cell_i, index_cell) =>{
                 if (activeCell[index_row][index_cell] === true && !filter_list.size.includes(rows[index_row][index_cell]))
                 {
                     filter_list.size.push(rows[index_row][index_cell])
+                }
+                else if (activeCell[index_row][index_cell] === false && filter_list.size.includes(rows[index_row][index_cell])){
+                    filter_list.size.splice(filter_list.size.indexOf(rows[index_row][index_cell]))
                 }
             })
         });
@@ -105,10 +109,30 @@ function Catalog_form(){
             женский : false
         }))
         console.log(filter_list)
+    
+    }
+
+    const click = () => {
+        let updatas = List_card.filter(card => {
+            return (
+                parseInt(filter.price[0]) <= parseInt(card.price) &&
+                parseInt(card.price) <= parseInt(filter.price[1]) &&
+                (filter.sex.includes(card.sex) || filter.sex.length === 0) &&
+                (filter.size.includes(parseInt(card.size)) || filter.size.length === 0)
+            )
+        }
+        )
+        setUpdata(updatas)
+        console.log(updatas)
+    }
+
+    const clickAll = () => {
+        handleFilter();
+        click()
     }
 
     return(
-        
+        <>
         <div className="catalog_form">
             <div className="form_text">Подбор по параметрам</div>
             <div className="catalog_price">
@@ -145,10 +169,12 @@ function Catalog_form(){
                     </tbody>
                 </table>
             </div>
-            <Button_filter onClick={()=>handleFilter()}>Применить</Button_filter>
-            <button className="ref" onClick={() => (handleDel(rows))}>сбросить</button>
+            <Button_filter onClick={()=>clickAll()}>Применить</Button_filter>
+            <button className="ref" onClick={() => {handleDel(rows); click()}}>сбросить</button>
             </div>  
          </div>
+         <Card_List updata={updata}></Card_List>
+         </>
     )
 }
 
