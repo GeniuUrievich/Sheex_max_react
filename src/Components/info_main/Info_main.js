@@ -13,7 +13,7 @@ function Info_main(){
                     <p>Мы продаем кроссовки брендов Nike, Adidas, Puma, Reebok, Converse и многие другие по низким ценам</p>
                 </div>
                 <Button_link>Перейти к покупкам</Button_link>
-                <h1>SneakMax</h1>
+                <h1 className="text_cat">SneakMax</h1>
             </div>
         </section>
     )
