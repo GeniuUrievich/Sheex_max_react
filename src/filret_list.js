@@ -1,5 +1,5 @@
 const filter_list = {
-    price: [],
+    price: ["500", "100000"],
     sex: [],
     size: []
 }
