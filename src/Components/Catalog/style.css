@@ -1,0 +1,14 @@
+.third_sec{
+    margin-top: 60px;
+}
+
+.sec_name{
+    font-weight: 700;
+    font-size: 30px;
+    color: #444B58;
+    margin-bottom: 40px;
+}
+
+.card_list_form{
+    display: flex;
+}
