@@ -1,10 +1,8 @@
 import "./../../style.css"
 
-function Button_link({children, style}){
+function Button_link({children, style, click}){
     return(
-        <div>
-            <a className="button_link" style={style}>{children}</a>
-        </div>
+        <button className="button_link" onClick={click} style={style}>{children}</button>
     )
 }
 
