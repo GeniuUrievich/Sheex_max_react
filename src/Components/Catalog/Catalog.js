@@ -1,7 +1,6 @@
 import Catalog_form  from "../Catalog_form/Catalog_form";
 import "./../Catalog/style.css"
 import "./../../style.css"
-import Button_link from "../Button_link/Button_link";
 
 function Catalog(){
     return (
