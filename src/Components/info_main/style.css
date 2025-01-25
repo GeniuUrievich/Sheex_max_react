@@ -35,7 +35,8 @@
     background-color: #F14F4F;
     text-align: center;
     align-content: center;
-    border-radius: 4px; 
+    border-radius: 4px;
+    border: none; 
     position: absolute;
     z-index: 1;
     cursor: pointer;
