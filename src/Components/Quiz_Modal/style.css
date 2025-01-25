@@ -22,3 +22,40 @@
     display: block;
     margin-bottom: 20px;
 }
+
+.line_checbox{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    gap: 5px;
+}
+
+.quiz_photo{
+    margin-bottom: 20px;
+}
+
+.modal_input_text{
+    width: 445px;
+    height: 226px;
+    border: none;
+    color: #DBBBA9;
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    word-wrap: break-word; 
+    resize: none;
+    overflow-y: auto; 
+    white-space: pre-wrap; 
+    margin-bottom: 90px;
+}
+
+.modal_input_text:focus{outline: 2px solid #DBBBA9;}
+
+.modal_input_text::placeholder{
+    color: #DBBBA9;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
