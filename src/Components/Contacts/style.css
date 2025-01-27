@@ -1,0 +1,49 @@
+.sec_7{
+    background-color: #F3F6F6;
+    padding-top: 61px;
+}
+
+.contacts_h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #444B58;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contacts_h4{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B2B5BB;
+}
+
+.con_foto{
+    position: relative;
+    top: 5px;    
+    margin-top: 30px;
+}
+
+.phone_contact{
+    font-weight: 400;
+    font-size: 30px;
+    color: #444B58;
+    margin-top: 40px;
+}
+
+.adress{
+    font-weight: 400;
+    font-size: 18px;
+    color: #444B58;
+    margin-top: 10px;
+}
+
+.social{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
