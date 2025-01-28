@@ -1,0 +1,31 @@
+footer{
+    background-color: #444B58;
+    height: 80px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer>h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.foot_nav{
+    margin-top: 33px;
+    margin-left: 345px;
+}
+
+.foot_nav_list{
+    display: flex;
+    gap: 30px;
+}
+
+.foot_nav_item{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
