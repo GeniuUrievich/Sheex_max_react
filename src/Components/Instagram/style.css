@@ -1,0 +1,85 @@
+.all_sec{
+    padding-top: 60px;
+    padding-bottom: 81px;
+    display: flex;
+}
+
+ .form{
+    width: 340px;
+    height: 340px;
+    background-color: #484283;
+    padding: 40px 20px;
+ }
+
+ .open{
+    height: 400px;
+ }
+
+ .form_h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 auto 20px auto;
+    width: 230px;
+ }
+
+ .form_p{
+    width: 260px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 auto 40px auto;
+    text-align: center;
+ }
+
+ .form_inputs{
+ }
+
+ .form_input{
+    width: 320px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #B2B5BB;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+ }
+
+.form_input:focus{
+    outline: none;
+}
+
+ .form_input::placeholder{
+    color: #B2B5BB;
+    font-weight: 400;
+    font-size: 16px;
+ }
+
+ .form_error{
+    height: 25px;
+    color: red;
+    opacity: 1;
+ }
+
+ .insta{
+    margin-left: 60px;
+ }
+
+ .insta_title{
+    margin-left: 261px;
+    margin-bottom: 21px;
+ }
+
+ .insta_photos{
+    display: flex;
+    gap: 18px;
+ }
+
+ .insta_photo_list{
+    width: 157px;
+ }
+
+ .insta_photo{
+    margin-bottom: 15px;
+ }
