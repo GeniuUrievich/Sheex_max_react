@@ -1,7 +1,10 @@
 .sec_7{
     background-color: #F3F6F6;
     padding-top: 61px;
+    padding-bottom: 60px;
 }
+
+.contacts{display: flex;}
 
 .contacts_h1{
     font-weight: 700;
@@ -13,6 +16,10 @@
     display: flex;
     align-items: center;
     margin-top: 30px;
+}
+
+.contact_text{
+    margin-right: 120px;
 }
 
 .contacts_h4{
@@ -46,4 +53,15 @@
     display: flex;
     margin-top: 40px;
     gap: 20px;
+}
+
+.Prep{
+    color: #444B58;
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#FFFFFF;
+    width: 275px;
+    position: relative;
+    top: -35px;
+    right: 60px;
 }
