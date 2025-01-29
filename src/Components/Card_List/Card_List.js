@@ -13,7 +13,7 @@ function Card_List({updata}) {
     return(
         <div className="cards_list">
             <div className="Card_list">
-                {updata.map((card) => {return <Card key={card.key} img={card.img} name={card.name} price = {card.price}></Card>})}
+                {updata.map((card) => {return <Card data={card} key={card.id}></Card>})}
             </div>
             <Button_link style={margin}>Показать еще</Button_link>
         </div>
