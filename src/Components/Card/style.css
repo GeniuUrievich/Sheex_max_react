@@ -1,6 +1,7 @@
 .card{
     width: 280px;
     height: 349px;
+    position: relative;
 }
 
 .image_card{
@@ -18,4 +19,20 @@
     font-size: 20px;
     font-weight: 400;
     color: #444B58;
+}
+
+.hover{
+    opacity: 0.4;
+}
+
+.card_images_hover{
+    position: absolute;
+    top: 105px;
+}
+
+.card_image_hover{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
 }
