@@ -1,0 +1,21 @@
+.zakaz{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto;
+}
+
+.zakaz_modal{
+    width: 580px;
+    height: 902px;
+    background-color: aqua;
+    position: absolute;
+    top: 214px;
+}
