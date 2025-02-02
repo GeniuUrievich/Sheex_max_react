@@ -9,7 +9,10 @@ const List_card = [
         sex: "мужской",
         size: "35",
         artical: "35406",
-        count: "134"
+        count: "134",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 2,
@@ -19,7 +22,10 @@ const List_card = [
         sex: "женский",
         size: "36",
         artical: "354104",
-        count: "136"
+        count: "136",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 3,
@@ -29,7 +35,10 @@ const List_card = [
         sex: "мужской",
         size: "37",
         artical: "357406",
-        count: "139"
+        count: "139",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 4,
@@ -39,7 +48,10 @@ const List_card = [
         sex: "женский",
         size: "38",
         artical: "3544706",
-        count: "130"
+        count: "130",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 5,
@@ -49,7 +61,10 @@ const List_card = [
         sex: "мужской",
         size: "39",
         artical: "351006",
-        count: "24"
+        count: "24",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 6,
@@ -59,7 +74,10 @@ const List_card = [
         sex: "женский",
         size: "40",
         artical: "395406",
-        count: "34"
+        count: "34",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 7,
@@ -69,7 +87,10 @@ const List_card = [
         sex: "мужской",
         size: "41",
         artical: "3540600",
-        count: "1340"
+        count: "1340",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 8,
@@ -79,7 +100,10 @@ const List_card = [
         sex: "женский",
         size: "42",
         artical: "255406",
-        count: "1344"
+        count: "1344",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     },
     {
         key: 9,
@@ -89,7 +113,10 @@ const List_card = [
         sex: "женский",
         size: "43",
         artical: "3540416",
-        count: "1347"
+        count: "1347",
+        color: "Белый",
+        country: "Россия",
+        structure: "Кожа"
     }
 ]
 
