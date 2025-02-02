@@ -19,9 +19,12 @@
     padding: 40px;
     position: absolute;
     top: 120px;
-    max-height: 90%;
     overflow-y: auto;
+}
+
+.card_open_source{
     display: flex;
+    margin-bottom: 40px;
 }
 
 .card_open_priev{
@@ -73,9 +76,17 @@
     margin-bottom: 20px;
 }
 
+.text_size{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 19px;
+    color: #444B58;
+}
+
 .change_size{
     display: flex;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .size_item{
@@ -90,4 +101,88 @@
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
+}
+
+.card_open_price{
+    font-weight: 700;
+    font-size: 30px;
+    color: #444B58;
+    margin-bottom: 105px;
+}
+
+.condition{
+    margin-top: 190px;
+}
+
+.condition_item{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.condition_h6{
+    color: #B2B5BB;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.discription{
+    margin-top: 40px;
+}
+
+.discription_h3{
+    color: #444B58;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.discription_p{
+    margin-top: 20px;
+    color: #444B58;
+    font-weight: 400;
+    font-size: 16px;
+    width: 431px;
+    height: 88px;
+}
+
+.specifications{
+    margin-top: 53px;
+}
+
+.specifications_h3{
+    color: #444B58;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.specifications_item{
+    color: #444B58;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8.5px;
+}
+
+.hz{
+    width: 1063px;
+    height: 449px;
+    background-color: #C4C4C4;
+}
+
+.btn_close{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.btn_close>span{
+    display: inline-block;
+    width: 20px;
+    height: 100%;
+    background-image: url("./../../Image/+.png");
+    border: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

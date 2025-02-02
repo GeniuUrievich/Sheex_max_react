@@ -1,7 +1,7 @@
-import Card_open from './Components/Card_open/Card_open';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Main from './Components/Main';
+import ModalsContainer from './Components/ModalContainer';
 import { ModalProvider } from './ModalContext';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Header></Header>
         <Main></Main>
         <Footer></Footer>
-        <Card_open></Card_open>
+        <ModalsContainer/>
       </ModalProvider>
   );
 }
