@@ -9,13 +9,137 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    overflow: auto;
+    overflow: auto
 }
 
 .zakaz_modal{
-    width: 580px;
-    height: 902px;
-    background-color: aqua;
+    width: 520px;
+    background-color: #FFFFFF;
     position: absolute;
     top: 214px;
+    padding: 40px;
+}
+
+.zakaz_modal_title{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.zakaz_modal_name{
+    font-weight: 700;
+    font-size: 20px;
+    color: #444B58;
+}
+
+.zakaz_modal_number{
+    font-weight: 400;
+    font-size: 14px;
+    color: #B2B5BB;
+    margin-top: 3px;
+    margin-left: 210px;
+}
+
+.zakaz_modal_bascet{
+    border: 1px solid #D9D9D9;
+    padding: 30px;
+}
+
+.count_products_price{
+    color: #B2B5BB;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.count_products_price>span{
+    color: #444B58;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.spisok_open{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444B58;
+}
+
+.spisok_open_btn{
+    background-image: url(./../../Image/down-arrow\ 1.svg);
+    width: 7px;
+    height: 7px;
+    border: none;
+    background-color: transparent;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+
+.active{
+    transform: rotate(0deg);
+}
+
+.card_zakaz{
+    display: flex;
+    margin-top: 17px;
+}
+
+.card_zakaz_photo{
+    width: 80px;
+    height: 80px;
+}
+
+.card_zakaz_text{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 290px;
+}
+
+.card_zakaz_name{
+    font-weight: 400;
+    font-size: 14px;
+    color:#444B58;
+}
+
+.card_zakaz_price{
+    font-weight: 700;
+    font-size: 16px;
+    color: #444B58;
+}
+
+.card_btn{
+    margin-top: 37px;
+    color: #B2B5BB;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.zakaz_modal_form{
+    margin-top: 30px;
+}
+
+.zakaz_modal_input{
+    width: 500px;
+    height: 60px;
+    background-color: #F6F6F6;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B2B5BB;
+}
+
+.zakaz_modal_input:focus{
+    outline: none;
+}
+
+.zakaz_modal_input::placeholder{
+    color: #B2B5BB;
+}
+
+.error_card{
+    color: red;
+    font-weight: 400;
+    font-size: 14px;
 }
