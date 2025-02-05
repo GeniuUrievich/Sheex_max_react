@@ -1,7 +1,6 @@
 import "./style.css"
 import "./../../style.css"
 import { useState } from "react"
-import Bascet_list from "../../Bascet_List"
 
 const Bascet_card = ({data, click}) => {
     const bascet = data
