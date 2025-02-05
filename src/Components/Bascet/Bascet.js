@@ -20,7 +20,15 @@ const Bascet = () => {
     }, [bascet])
 
     const delete_card = (key) => {
-        setBascet((prev) => prev.filter(item => item.key !== key))
+        setBascet((prev) => {
+           const index = prev.findIndex((item) => item.key === key)
+           if (index !== -1){
+            const newBascet = [...prev]
+            newBascet.splice(index, 1)
+            return newBascet
+           } 
+           return prev
+        })
     }
 
 
